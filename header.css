@@ -1,0 +1,84 @@
+.column, header {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  padding-top: 25px;
+  background: url("images/header-bg.png") no-repeat; }
+  header .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 140px;
+    margin-bottom: 55px; }
+    header .header .logoWrapper {
+      display: flex;
+      align-items: center; }
+      header .header .logoWrapper span {
+        display: inline-block;
+        color: white;
+        font-style: italic;
+        text-transform: uppercase; }
+      header .header .logoWrapper .bigLogoText {
+        margin-top: 5px;
+        font-size: 40px; }
+      header .header .logoWrapper .smallLogoText {
+        margin-top: 20px;
+        font-size: 13px; }
+    header .header menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 50px;
+      margin-top: 30px;
+      background: url("images/menu-bg.png") no-repeat; }
+      header .header menu li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 5px;
+        height: 40px;
+        border-left: 1px #dcb105 solid; }
+        header .header menu li:first-child {
+          border: none; }
+        header .header menu li a {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 0 20px 0 16px;
+          color: #9b7d08; }
+        header .header menu li img {
+          margin-right: 10px; }
+  header .playerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .playerWrapper .playerArrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 60px;
+      width: 35px;
+      background-color: #c7a309; }
+      header .playerWrapper .playerArrow:hover {
+        background-color: #f5c506;
+        cursor: pointer; }
+    header .playerWrapper .playerAndTextWrap {
+      display: flex; }
+      header .playerWrapper .playerAndTextWrap .video {
+        width: 550px;
+        height: 330px; }
+      header .playerWrapper .playerAndTextWrap .playerText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Asap;
+        font-size: 60px;
+        text-transform: uppercase; }
+        header .playerWrapper .playerAndTextWrap .playerText span:first-child {
+          color: #f5c506; }
+        header .playerWrapper .playerAndTextWrap .playerText span:last-child {
+          color: white; }
+
+/*# sourceMappingURL=header.css.map */
